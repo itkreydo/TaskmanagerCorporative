@@ -43,6 +43,15 @@ Task manager это удобное решение проблемы планир�
 
 <img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_security.png"  align=right width="32">
 
+## Некоторые скрины из приложения
+<p>
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_lk_director.png" align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_lk_director_workers.png" align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_tasks.png"  align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_task_detail.png"  align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_task_chat.png"   width="155">
+</p>
+
 # Task Manager corporative (Language: english)
 Task manager is a comfortable decision of planning problem. 
 Success and profit of many companies depends on the ability to correctly manage tasks and planning.
@@ -82,6 +91,15 @@ Server side created via programm platform [Node.js](https://nodejs.org/) with da
 * Security encrypted connection with SSL (Self-Signed certificate in debug version)
 
 <img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_security.png"  align=right width="32">
+
+## Some screens from app
+<p>
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_lk_director.png" align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_lk_director_workers.png" align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_tasks.png"  align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_task_detail.png"  align="left" width="155">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_task_chat.png"   width="155">
+</p>
 
 
 
