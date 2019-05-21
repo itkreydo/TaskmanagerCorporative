@@ -16,7 +16,7 @@ Task manager это удобное решение проблемы планир�
 ## Цель проекта
 Создать мобильное приложение, которое позволит систематизировать работу масштабных предприятий.
 <p align="center">
-<img src="https://github.com/glorin1/Taskmanager/blob/master/Readme/task_manager_screen1.png"  width="512">
+<img src="https://github.com/itkreydo/TaskmanagerCorporative/blob/master/Readme/task_manager_screen1.png"  width="512">
 </p>
 
 ## Архитектура приложения
