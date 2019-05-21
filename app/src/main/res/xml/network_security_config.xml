@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config>
+        <trust-anchors>
+            <certificates src="@raw/rootca"/>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">192.168.0.180</domain>
+        <trust-anchors>
+            <certificates src="@raw/rootca"/>
+            <certificates src="@raw/server"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
+<!--<network-security-config>-->
+    <!--<base-config>-->
+        <!--<trust-anchors>-->
+            <!--<certificates src="@raw/domain"/>-->
+            <!--<certificates src="system"/>-->
+        <!--</trust-anchors>-->
+    <!--</base-config>-->
+<!--</network-security-config>-->

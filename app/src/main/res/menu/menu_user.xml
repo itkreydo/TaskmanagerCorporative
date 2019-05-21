@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menugroup1" >
+        <item
+            android:id="@+id/menu_check"
+            android:icon="@drawable/ic_check_black"
+            android:title="@string/pupup_check">
+        </item>
+        <item
+            android:id="@+id/menu_percent"
+            android:icon="@drawable/ic_redo"
+            android:title="@string/pupup_percent">
+            <menu>
+                <item
+                    android:id="@+id/menu_progress_25"
+
+                    android:title="@string/progress_25"/>
+                <item
+                    android:id="@+id/menu_progress_50"
+
+                    android:title="@string/progress_50"/>
+                <item
+                    android:id="@+id/menu_progress_75"
+                    android:title="@string/progress_75" />
+                <item
+                    android:id="@+id/menu_progress_100"
+                    android:title="@string/progress_100">
+                </item>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

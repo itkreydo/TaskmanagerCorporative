@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorNewDraverHead</color>
+    <color name="colorPrimaryDark">#444444</color>
+    <color name="colorAccent">#444444</color>
+
+    <color name="colorWorkerFree">#0CA95D</color>
+    <color name="colorWorkerBusy">#F44336</color>
+    <color name="colorTaskMiddle">#AEB658</color>
+    <color name="colorTaskLow">#C5524A</color>
+    <color name="colorNewDraverHead">#79AC7C</color>
+
+    <!--android:centerColor="#5F63B8"-->
+    <!--android:endColor="#3E3AB7"-->
+    <!--android:startColor="#808CCE"-->
+    <!--Цвета сообщений-->
+    <!--Доп цвета-->
+    <color name="colorMessageSentBackgroundBlue">#CAD9F0</color>
+    <color name="colorMessageSentBackgroundGreen">#B2E7B9</color>
+    <!--Основыне цвета-->
+    <color name="colorMessageText">#2B2B2B</color>
+    <color name="colorMessageSentBackground">@color/colorMessageSentBackgroundBlue</color>
+    <color name="colorMessageRecievedBackground">#F7F7F7</color>
+    <color name="colorEditTextChat">#eeeeee</color>
+
+
+    <color name="colorTaskBgSuccess">#E7E7E7</color>
+    <color name="colorDialogBg">#eeeeee</color>
+</resources>
