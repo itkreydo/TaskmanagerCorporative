@@ -712,7 +712,7 @@ console.log('Node app is running on port 3000')
 });
 
 secureServer.listen(443,()=>{
-console.log('Node app is running on port 3000')
+console.log('Node app is running on port 443')
 });
 
 
@@ -758,7 +758,7 @@ io.use((socket, next) => {
          var jsonres = {};
          if (results.length==0){
              jsonres = {status: "UNKNOWN_TOKEN"};
-              //console.log("response:");
+              console.log("response:");
             //console.log(JSON.stringify(jsonres));
 //             res.send(200,JSON.stringify(jsonres));
 //             return;
@@ -768,13 +768,13 @@ io.use((socket, next) => {
          var dateNow = new Date()/1000;
          if (results[0]['access_expires_in'] < dateNow){
             jsonres = {status: "OLD_TOKEN"};
-              //console.log("response:");
+              console.log("response:");
             //console.log(JSON.stringify(jsonres));
 //            res.send(200,JSON.stringify(jsonres));
 //            return;
             return next(new Error('authentication error'));
          }
-         
+         console.log("oke");
          return next(); 
      });
 

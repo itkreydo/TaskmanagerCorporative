@@ -79,7 +79,7 @@ public class FragmentDialog extends Fragment {
 
         Nickname = authUser.getUser().getNickname();
         try {
-            socket = IO.socket("http://172.20.10.2:3000?token="+authUser.getAcc_token());
+            socket = IO.socket("http://192.168.0.158:3000?token="+authUser.getAcc_token());
             socket.connect();
             socket.on("error", new Emitter.Listener() {
                 @Override public void call(final Object... args) {

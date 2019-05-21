@@ -50,7 +50,7 @@ public class ServerRequest extends AsyncTask<Void, Void, String> {
     private byte [] binaryData;
     private Context mContext = null;
     // Адрес метода api для загрузки файла на сервер
-    public static String SERVER_URL_DEFAULT = "https://172.20.10.2";
+    public static String SERVER_URL_DEFAULT = "https://192.168.0.158";
     public String SERVER_URL = "https://172.20.10.2";
 
     public ServerRequest(String serverUrl) {
